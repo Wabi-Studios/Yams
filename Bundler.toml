@@ -1,0 +1,10 @@
+format_version = 2
+
+[apps.Yams]
+category = 'public.app-category.developer-tools'
+identifier = 'foundation.wabi.yams'
+product = 'Yams'
+version = '1.0.0'
+
+[apps.Yams.plist]
+commit = '$(COMMIT_HASH)'
